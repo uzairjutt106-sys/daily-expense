@@ -1,0 +1,11 @@
+/* Minimal styles; override as needed */
+body { background: #fff; color: #111; }
+button { cursor: pointer; }
+button.delete { background: transparent; border: 1px solid #b00020; color: #b00020; border-radius: 6px; }
+button.delete:hover { background: #ffe7ea; }
+
+/* Dark mode */
+.dark body { background: #121212; color: #e5e5e5; }
+.dark table { color: #e5e5e5; }
+.dark a { color: #90caf9; }
+
